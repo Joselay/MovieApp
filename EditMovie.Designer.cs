@@ -43,6 +43,20 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             pictureBox5 = new PictureBox();
             moodButton = new Guna.UI2.WinForms.Guna2Button();
@@ -84,6 +98,16 @@
             guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             addButton = new Guna.UI2.WinForms.Guna2Button();
+            guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            rightArrow = new Guna.UI2.WinForms.Guna2Button();
+            leftArrow = new Guna.UI2.WinForms.Guna2Button();
+            four = new Guna.UI2.WinForms.Guna2Button();
+            three = new Guna.UI2.WinForms.Guna2Button();
+            two = new Guna.UI2.WinForms.Guna2Button();
+            one = new Guna.UI2.WinForms.Guna2Button();
+            total = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            countOfPage = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -102,6 +126,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
+            guna2Panel3.SuspendLayout();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -636,12 +661,198 @@
             addButton.Text = "Add";
             addButton.Click += addButton_Click;
             // 
+            // guna2Panel3
+            // 
+            guna2Panel3.BackColor = Color.FromArgb(23, 22, 27);
+            guna2Panel3.BorderRadius = 8;
+            guna2Panel3.Controls.Add(rightArrow);
+            guna2Panel3.Controls.Add(leftArrow);
+            guna2Panel3.Controls.Add(four);
+            guna2Panel3.Controls.Add(three);
+            guna2Panel3.Controls.Add(two);
+            guna2Panel3.Controls.Add(one);
+            guna2Panel3.Controls.Add(total);
+            guna2Panel3.Controls.Add(guna2HtmlLabel18);
+            guna2Panel3.Controls.Add(countOfPage);
+            guna2Panel3.CustomizableEdges = customizableEdges27;
+            guna2Panel3.Location = new Point(301, 962);
+            guna2Panel3.Name = "guna2Panel3";
+            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            guna2Panel3.Size = new Size(1107, 50);
+            guna2Panel3.TabIndex = 38;
+            // 
+            // rightArrow
+            // 
+            rightArrow.BackColor = Color.Transparent;
+            rightArrow.BorderRadius = 10;
+            rightArrow.Cursor = Cursors.Hand;
+            rightArrow.CustomizableEdges = customizableEdges15;
+            rightArrow.DisabledState.BorderColor = Color.DarkGray;
+            rightArrow.DisabledState.CustomBorderColor = Color.DarkGray;
+            rightArrow.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            rightArrow.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            rightArrow.FillColor = Color.FromArgb(17, 17, 20);
+            rightArrow.Font = new Font("Inter", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            rightArrow.ForeColor = Color.White;
+            rightArrow.HoverState.ForeColor = Color.FromArgb(252, 218, 70);
+            rightArrow.Location = new Point(1045, 8);
+            rightArrow.Name = "rightArrow";
+            rightArrow.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            rightArrow.Size = new Size(40, 35);
+            rightArrow.TabIndex = 45;
+            rightArrow.Text = "→";
+            rightArrow.Click += rightArrow_Click;
+            // 
+            // leftArrow
+            // 
+            leftArrow.BackColor = Color.Transparent;
+            leftArrow.BorderRadius = 10;
+            leftArrow.Cursor = Cursors.Hand;
+            leftArrow.CustomizableEdges = customizableEdges17;
+            leftArrow.DisabledState.BorderColor = Color.DarkGray;
+            leftArrow.DisabledState.CustomBorderColor = Color.DarkGray;
+            leftArrow.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            leftArrow.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            leftArrow.FillColor = Color.FromArgb(17, 17, 20);
+            leftArrow.Font = new Font("Inter", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            leftArrow.ForeColor = Color.White;
+            leftArrow.HoverState.ForeColor = Color.FromArgb(252, 218, 70);
+            leftArrow.Location = new Point(710, 8);
+            leftArrow.Name = "leftArrow";
+            leftArrow.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            leftArrow.Size = new Size(40, 35);
+            leftArrow.TabIndex = 44;
+            leftArrow.Text = "←";
+            leftArrow.Click += leftArrow_Click;
+            // 
+            // four
+            // 
+            four.BackColor = Color.Transparent;
+            four.BorderRadius = 10;
+            four.Cursor = Cursors.Hand;
+            four.CustomizableEdges = customizableEdges19;
+            four.DisabledState.BorderColor = Color.DarkGray;
+            four.DisabledState.CustomBorderColor = Color.DarkGray;
+            four.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            four.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            four.FillColor = Color.FromArgb(17, 17, 20);
+            four.Font = new Font("Inter", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            four.ForeColor = Color.White;
+            four.HoverState.ForeColor = Color.FromArgb(252, 218, 70);
+            four.Location = new Point(968, 8);
+            four.Name = "four";
+            four.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            four.Size = new Size(60, 35);
+            four.TabIndex = 43;
+            four.Text = "4";
+            four.Click += four_Click;
+            // 
+            // three
+            // 
+            three.BackColor = Color.Transparent;
+            three.BorderRadius = 10;
+            three.Cursor = Cursors.Hand;
+            three.CustomizableEdges = customizableEdges21;
+            three.DisabledState.BorderColor = Color.DarkGray;
+            three.DisabledState.CustomBorderColor = Color.DarkGray;
+            three.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            three.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            three.FillColor = Color.FromArgb(17, 17, 20);
+            three.Font = new Font("Inter", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            three.ForeColor = Color.White;
+            three.HoverState.ForeColor = Color.FromArgb(252, 218, 70);
+            three.Location = new Point(902, 8);
+            three.Name = "three";
+            three.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            three.Size = new Size(60, 35);
+            three.TabIndex = 42;
+            three.Text = "3";
+            three.Click += three_Click;
+            // 
+            // two
+            // 
+            two.BackColor = Color.Transparent;
+            two.BorderRadius = 10;
+            two.Cursor = Cursors.Hand;
+            two.CustomizableEdges = customizableEdges23;
+            two.DisabledState.BorderColor = Color.DarkGray;
+            two.DisabledState.CustomBorderColor = Color.DarkGray;
+            two.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            two.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            two.FillColor = Color.FromArgb(17, 17, 20);
+            two.Font = new Font("Inter", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            two.ForeColor = Color.White;
+            two.HoverState.ForeColor = Color.FromArgb(252, 218, 70);
+            two.Location = new Point(836, 8);
+            two.Name = "two";
+            two.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            two.Size = new Size(60, 35);
+            two.TabIndex = 41;
+            two.Text = "2";
+            two.Click += two_Click;
+            // 
+            // one
+            // 
+            one.BackColor = Color.Transparent;
+            one.BorderRadius = 10;
+            one.Cursor = Cursors.Hand;
+            one.CustomizableEdges = customizableEdges25;
+            one.DisabledState.BorderColor = Color.DarkGray;
+            one.DisabledState.CustomBorderColor = Color.DarkGray;
+            one.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            one.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            one.FillColor = Color.FromArgb(17, 17, 20);
+            one.Font = new Font("Inter", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            one.ForeColor = Color.White;
+            one.HoverState.ForeColor = Color.FromArgb(252, 218, 70);
+            one.Location = new Point(769, 8);
+            one.Name = "one";
+            one.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            one.Size = new Size(60, 35);
+            one.TabIndex = 40;
+            one.Text = "1";
+            one.Click += one_Click;
+            // 
+            // total
+            // 
+            total.BackColor = Color.Transparent;
+            total.Font = new Font("Inter Medium", 13.25F, FontStyle.Bold, GraphicsUnit.Point);
+            total.ForeColor = Color.White;
+            total.Location = new Point(104, 14);
+            total.Name = "total";
+            total.Size = new Size(47, 23);
+            total.TabIndex = 39;
+            total.Text = "total";
+            // 
+            // guna2HtmlLabel18
+            // 
+            guna2HtmlLabel18.BackColor = Color.Transparent;
+            guna2HtmlLabel18.Font = new Font("Inter Medium", 13.25F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2HtmlLabel18.ForeColor = Color.White;
+            guna2HtmlLabel18.Location = new Point(50, 14);
+            guna2HtmlLabel18.Name = "guna2HtmlLabel18";
+            guna2HtmlLabel18.Size = new Size(48, 23);
+            guna2HtmlLabel18.TabIndex = 1;
+            guna2HtmlLabel18.Text = "from";
+            // 
+            // countOfPage
+            // 
+            countOfPage.BackColor = Color.Transparent;
+            countOfPage.Font = new Font("Inter Medium", 13.25F, FontStyle.Bold, GraphicsUnit.Point);
+            countOfPage.ForeColor = Color.White;
+            countOfPage.Location = new Point(15, 14);
+            countOfPage.Name = "countOfPage";
+            countOfPage.Size = new Size(29, 23);
+            countOfPage.TabIndex = 0;
+            countOfPage.Text = "00";
+            // 
             // EditMovie
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(32, 31, 36);
             ClientSize = new Size(1440, 1024);
+            Controls.Add(guna2Panel3);
             Controls.Add(addButton);
             Controls.Add(guna2HtmlLabel17);
             Controls.Add(guna2HtmlLabel16);
@@ -676,6 +887,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
+            guna2Panel3.ResumeLayout(false);
+            guna2Panel3.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -723,5 +936,15 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel16;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel17;
         private Guna.UI2.WinForms.Guna2Button addButton;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel total;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel18;
+        private Guna.UI2.WinForms.Guna2HtmlLabel countOfPage;
+        private Guna.UI2.WinForms.Guna2Button four;
+        private Guna.UI2.WinForms.Guna2Button three;
+        private Guna.UI2.WinForms.Guna2Button two;
+        private Guna.UI2.WinForms.Guna2Button one;
+        private Guna.UI2.WinForms.Guna2Button rightArrow;
+        private Guna.UI2.WinForms.Guna2Button leftArrow;
     }
 }
