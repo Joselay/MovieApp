@@ -76,7 +76,7 @@
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             pictureBox16 = new PictureBox();
-            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            searchText = new Guna.UI2.WinForms.Guna2TextBox();
             publishButton = new Guna.UI2.WinForms.Guna2Button();
             flowLayoutPanel1 = new FlowLayoutPanel();
             guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -509,29 +509,30 @@
             pictureBox16.TabIndex = 11;
             pictureBox16.TabStop = false;
             // 
-            // guna2TextBox2
+            // searchText
             // 
-            guna2TextBox2.BorderRadius = 25;
-            guna2TextBox2.BorderThickness = 0;
-            guna2TextBox2.CustomizableEdges = customizableEdges9;
-            guna2TextBox2.DefaultText = "";
-            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.FillColor = Color.FromArgb(23, 22, 27);
-            guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Font = new Font("Inter", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(937, 118);
-            guna2TextBox2.Margin = new Padding(4);
-            guna2TextBox2.Name = "guna2TextBox2";
-            guna2TextBox2.PasswordChar = '\0';
-            guna2TextBox2.PlaceholderText = "";
-            guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2TextBox2.Size = new Size(224, 51);
-            guna2TextBox2.TabIndex = 12;
+            searchText.BorderRadius = 25;
+            searchText.BorderThickness = 0;
+            searchText.CustomizableEdges = customizableEdges9;
+            searchText.DefaultText = "";
+            searchText.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            searchText.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            searchText.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            searchText.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            searchText.FillColor = Color.FromArgb(23, 22, 27);
+            searchText.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            searchText.Font = new Font("Inter", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            searchText.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            searchText.Location = new Point(937, 118);
+            searchText.Margin = new Padding(4);
+            searchText.Name = "searchText";
+            searchText.PasswordChar = '\0';
+            searchText.PlaceholderText = "";
+            searchText.SelectedText = "";
+            searchText.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            searchText.Size = new Size(224, 51);
+            searchText.TabIndex = 12;
+            searchText.TextChanged += searchText_TextChanged;
             // 
             // publishButton
             // 
@@ -650,7 +651,7 @@
             Controls.Add(publishButton);
             Controls.Add(pictureBox16);
             Controls.Add(guna2HtmlLabel13);
-            Controls.Add(guna2TextBox2);
+            Controls.Add(searchText);
             Controls.Add(guna2Panel1);
             Controls.Add(guna2Panel2);
             FormBorderStyle = FormBorderStyle.None;
@@ -714,7 +715,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
         private PictureBox pictureBox16;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox searchText;
         private Guna.UI2.WinForms.Guna2Button publishButton;
         private FlowLayoutPanel flowLayoutPanel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;

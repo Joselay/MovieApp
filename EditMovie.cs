@@ -91,5 +91,44 @@ namespace MovieSystemManagement
             AddMovie am = new AddMovie();
             am.Show();
         }
+
+        private void searchText_TextChanged(object sender, EventArgs e)
+        {
+            flowLayoutPanel1.Controls.Clear();
+            string connectionString = "Data Source=JOSE;Initial Catalog=MovieApp;User ID=jose;Password=jose";
+            string query = $"SELECT movie_id, title,release_date FROM Movie WHERE title LIKE '{searchText.Text}%';";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    connection.Open();
+
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            int movie_id = (int)reader["movie_id"];
+                            string title = (string)reader["title"];
+                            string release_date = ((DateTime)reader["release_date"]).ToString();
+
+
+                            Movie movie = new Movie(movie_id, title, release_date);
+                            ListItems li = new ListItems(movie);
+                            flowLayoutPanel1.Controls.Add(li);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("No Data");
+                    }
+
+                    reader.Close();
+                }
+            }
+
+        }
     }
 }
