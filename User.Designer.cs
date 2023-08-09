@@ -71,13 +71,8 @@
             guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             searchText = new Guna.UI2.WinForms.Guna2TextBox();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             pictureBox15 = new PictureBox();
-            guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            pictureBox14 = new PictureBox();
-            guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            pictureBox13 = new PictureBox();
             guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             pictureBox12 = new PictureBox();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -118,8 +113,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
             guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
@@ -270,6 +263,7 @@
             addButton.Size = new Size(81, 41);
             addButton.TabIndex = 44;
             addButton.Text = "Add";
+            addButton.Click += addButton_Click;
             // 
             // publishButton
             // 
@@ -343,13 +337,8 @@
             // guna2Panel2
             // 
             guna2Panel2.BackColor = Color.FromArgb(23, 22, 27);
-            guna2Panel2.Controls.Add(guna2HtmlLabel8);
             guna2Panel2.Controls.Add(guna2HtmlLabel12);
             guna2Panel2.Controls.Add(pictureBox15);
-            guna2Panel2.Controls.Add(guna2HtmlLabel11);
-            guna2Panel2.Controls.Add(pictureBox14);
-            guna2Panel2.Controls.Add(guna2HtmlLabel10);
-            guna2Panel2.Controls.Add(pictureBox13);
             guna2Panel2.Controls.Add(guna2HtmlLabel9);
             guna2Panel2.Controls.Add(pictureBox12);
             guna2Panel2.Controls.Add(guna2HtmlLabel3);
@@ -371,23 +360,12 @@
             guna2Panel2.Size = new Size(261, 1024);
             guna2Panel2.TabIndex = 39;
             // 
-            // guna2HtmlLabel8
-            // 
-            guna2HtmlLabel8.BackColor = Color.Transparent;
-            guna2HtmlLabel8.Font = new Font("Inter", 5F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2HtmlLabel8.ForeColor = Color.FromArgb(252, 218, 70);
-            guna2HtmlLabel8.Location = new Point(33, 447);
-            guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            guna2HtmlLabel8.Size = new Size(9, 11);
-            guna2HtmlLabel8.TabIndex = 19;
-            guna2HtmlLabel8.Text = "●";
-            // 
             // guna2HtmlLabel12
             // 
             guna2HtmlLabel12.BackColor = Color.Transparent;
             guna2HtmlLabel12.Font = new Font("Inter", 13.5F, FontStyle.Regular, GraphicsUnit.Point);
             guna2HtmlLabel12.ForeColor = Color.White;
-            guna2HtmlLabel12.Location = new Point(82, 547);
+            guna2HtmlLabel12.Location = new Point(82, 439);
             guna2HtmlLabel12.Name = "guna2HtmlLabel12";
             guna2HtmlLabel12.Size = new Size(51, 23);
             guna2HtmlLabel12.TabIndex = 18;
@@ -397,63 +375,18 @@
             // 
             pictureBox15.Cursor = Cursors.Hand;
             pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
-            pictureBox15.Location = new Point(41, 546);
+            pictureBox15.Location = new Point(41, 438);
             pictureBox15.Name = "pictureBox15";
             pictureBox15.Size = new Size(24, 24);
             pictureBox15.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox15.TabIndex = 17;
             pictureBox15.TabStop = false;
             // 
-            // guna2HtmlLabel11
-            // 
-            guna2HtmlLabel11.BackColor = Color.Transparent;
-            guna2HtmlLabel11.Font = new Font("Inter", 13.5F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2HtmlLabel11.ForeColor = Color.FromArgb(123, 123, 125);
-            guna2HtmlLabel11.Location = new Point(104, 492);
-            guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            guna2HtmlLabel11.Size = new Size(36, 23);
-            guna2HtmlLabel11.TabIndex = 16;
-            guna2HtmlLabel11.Text = "Edit";
-            // 
-            // pictureBox14
-            // 
-            pictureBox14.Cursor = Cursors.Hand;
-            pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
-            pictureBox14.Location = new Point(63, 491);
-            pictureBox14.Name = "pictureBox14";
-            pictureBox14.Size = new Size(24, 24);
-            pictureBox14.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox14.TabIndex = 15;
-            pictureBox14.TabStop = false;
-            pictureBox14.Click += pictureBox14_Click;
-            // 
-            // guna2HtmlLabel10
-            // 
-            guna2HtmlLabel10.BackColor = Color.Transparent;
-            guna2HtmlLabel10.Font = new Font("Inter", 13.5F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2HtmlLabel10.ForeColor = Color.White;
-            guna2HtmlLabel10.Location = new Point(104, 442);
-            guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            guna2HtmlLabel10.Size = new Size(37, 23);
-            guna2HtmlLabel10.TabIndex = 14;
-            guna2HtmlLabel10.Text = "Add";
-            // 
-            // pictureBox13
-            // 
-            pictureBox13.Cursor = Cursors.Hand;
-            pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
-            pictureBox13.Location = new Point(63, 441);
-            pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(24, 24);
-            pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox13.TabIndex = 13;
-            pictureBox13.TabStop = false;
-            // 
             // guna2HtmlLabel9
             // 
             guna2HtmlLabel9.BackColor = Color.Transparent;
             guna2HtmlLabel9.Font = new Font("Inter", 13.5F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2HtmlLabel9.ForeColor = Color.White;
+            guna2HtmlLabel9.ForeColor = Color.FromArgb(123, 123, 125);
             guna2HtmlLabel9.Location = new Point(82, 396);
             guna2HtmlLabel9.Name = "guna2HtmlLabel9";
             guna2HtmlLabel9.Size = new Size(63, 23);
@@ -521,6 +454,7 @@
             pictureBox10.Size = new Size(26, 26);
             pictureBox10.TabIndex = 2;
             pictureBox10.TabStop = false;
+            pictureBox10.Click += pictureBox10_Click;
             // 
             // guna2HtmlLabel4
             // 
@@ -568,7 +502,7 @@
             // pictureBox7
             // 
             pictureBox7.Image = Properties.Resources.Rectangle_8;
-            pictureBox7.Location = new Point(-1, 397);
+            pictureBox7.Location = new Point(0, 440);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(10, 20);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
@@ -882,8 +816,6 @@
             guna2Panel2.ResumeLayout(false);
             guna2Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
@@ -914,10 +846,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
         private PictureBox pictureBox15;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
-        private PictureBox pictureBox14;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
-        private PictureBox pictureBox13;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
         private PictureBox pictureBox12;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
@@ -949,6 +877,5 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel total;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel20;
         private Guna.UI2.WinForms.Guna2HtmlLabel countOfPage;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
     }
 }

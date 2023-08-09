@@ -90,7 +90,7 @@ namespace MovieSystemManagement
                                 if (role == "admin")
                                 {
                                     this.Hide();
-                                    AddMovie am = new AddMovie();
+                                    EditMovie am = new EditMovie();
                                     am.Show();
                                 }
                                 else if (role == "user" || role == "guest")

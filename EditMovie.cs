@@ -39,16 +39,10 @@ namespace MovieSystemManagement
 
         private void guna2HtmlLabel10_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            AddMovie am = new AddMovie();
-            am.Show();
         }
 
         private void guna2HtmlLabel6_Click(object sender, EventArgs e)
         {
-            this.Show();
-            Login l = new Login();
-            l.Show();
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -92,7 +86,6 @@ namespace MovieSystemManagement
         }
         private void addButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
             AddMovie am = new AddMovie();
             am.Show();
         }
@@ -317,9 +310,20 @@ namespace MovieSystemManagement
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
             this.Hide();
-            AddMovie am = new AddMovie();
-            am.Show();
+            User user = new User();
+            user.Show();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
         }
     }
 }

@@ -21,5 +21,18 @@ namespace MovieSystemManagement
         {
 
         }
+
+        private void addButton_Click(object sender, EventArgs e)
+        {
+            UserProfile up = new UserProfile();
+            up.Show();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
+        }
     }
 }

@@ -108,5 +108,17 @@ namespace MovieSystemManagement
             EditMovie em = new EditMovie();
             em.Show();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
+        }
     }
 }
