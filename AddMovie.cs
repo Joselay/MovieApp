@@ -95,5 +95,18 @@ namespace MovieSystemManagement
             return (Image)converter.ConvertFrom(blob);
         }
 
+        private void guna2HtmlLabel12_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            User user = new User();
+            user.Show();
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EditMovie em = new EditMovie();
+            em.Show();
+        }
     }
 }

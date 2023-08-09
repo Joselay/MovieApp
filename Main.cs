@@ -120,5 +120,11 @@ namespace MovieSystemManagement
             genre.Show();
 
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            UserProfile up = new UserProfile();
+            up.Show();
+        }
     }
 }

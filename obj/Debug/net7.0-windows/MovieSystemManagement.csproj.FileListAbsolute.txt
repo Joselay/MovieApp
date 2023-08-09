@@ -35,3 +35,6 @@ C:\Users\tongm\Desktop\MovieSystemManagement\obj\Debug\net7.0-windows\MovieSyste
 C:\Users\tongm\Desktop\MovieSystemManagement\obj\Debug\net7.0-windows\MovieSystemManagement.EditMovie.resources
 C:\Users\tongm\Desktop\MovieSystemManagement\obj\Debug\net7.0-windows\MovieSystemManagement.ListItems.resources
 C:\Users\tongm\Desktop\MovieSystemManagement\obj\Debug\net7.0-windows\MovieSystemManagement.UpdateMovie.resources
+C:\Users\tongm\Desktop\MovieSystemManagement\obj\Debug\net7.0-windows\MovieSystemManagement.User.resources
+C:\Users\tongm\Desktop\MovieSystemManagement\obj\Debug\net7.0-windows\MovieSystemManagement.ListUsers.resources
+C:\Users\tongm\Desktop\MovieSystemManagement\obj\Debug\net7.0-windows\MovieSystemManagement.UserProfile.resources

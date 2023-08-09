@@ -66,8 +66,6 @@
             pictureBox13 = new PictureBox();
             guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             pictureBox12 = new PictureBox();
-            guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            pictureBox6 = new PictureBox();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             pictureBox11 = new PictureBox();
@@ -107,7 +105,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
@@ -135,8 +132,6 @@
             guna2Panel2.Controls.Add(pictureBox13);
             guna2Panel2.Controls.Add(guna2HtmlLabel9);
             guna2Panel2.Controls.Add(pictureBox12);
-            guna2Panel2.Controls.Add(guna2HtmlLabel8);
-            guna2Panel2.Controls.Add(pictureBox6);
             guna2Panel2.Controls.Add(guna2HtmlLabel3);
             guna2Panel2.Controls.Add(guna2HtmlLabel7);
             guna2Panel2.Controls.Add(pictureBox11);
@@ -162,7 +157,7 @@
             guna2HtmlLabel12.BackColor = Color.Transparent;
             guna2HtmlLabel12.Font = new Font("Inter", 13.5F, FontStyle.Regular, GraphicsUnit.Point);
             guna2HtmlLabel12.ForeColor = Color.FromArgb(123, 123, 125);
-            guna2HtmlLabel12.Location = new Point(82, 600);
+            guna2HtmlLabel12.Location = new Point(82, 545);
             guna2HtmlLabel12.Name = "guna2HtmlLabel12";
             guna2HtmlLabel12.Size = new Size(51, 23);
             guna2HtmlLabel12.TabIndex = 18;
@@ -171,7 +166,7 @@
             // pictureBox15
             // 
             pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
-            pictureBox15.Location = new Point(41, 599);
+            pictureBox15.Location = new Point(41, 544);
             pictureBox15.Name = "pictureBox15";
             pictureBox15.Size = new Size(24, 24);
             pictureBox15.SizeMode = PictureBoxSizeMode.Zoom;
@@ -183,7 +178,7 @@
             editMovie.BackColor = Color.Transparent;
             editMovie.Font = new Font("Inter", 13.5F, FontStyle.Regular, GraphicsUnit.Point);
             editMovie.ForeColor = Color.FromArgb(123, 123, 125);
-            editMovie.Location = new Point(82, 551);
+            editMovie.Location = new Point(82, 496);
             editMovie.Name = "editMovie";
             editMovie.Size = new Size(36, 23);
             editMovie.TabIndex = 16;
@@ -193,7 +188,7 @@
             // pictureBox14
             // 
             pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
-            pictureBox14.Location = new Point(41, 550);
+            pictureBox14.Location = new Point(41, 495);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(24, 24);
             pictureBox14.SizeMode = PictureBoxSizeMode.Zoom;
@@ -205,7 +200,7 @@
             guna2HtmlLabel10.BackColor = Color.Transparent;
             guna2HtmlLabel10.Font = new Font("Inter", 13.5F, FontStyle.Regular, GraphicsUnit.Point);
             guna2HtmlLabel10.ForeColor = Color.White;
-            guna2HtmlLabel10.Location = new Point(82, 501);
+            guna2HtmlLabel10.Location = new Point(82, 446);
             guna2HtmlLabel10.Name = "guna2HtmlLabel10";
             guna2HtmlLabel10.Size = new Size(65, 23);
             guna2HtmlLabel10.TabIndex = 14;
@@ -214,7 +209,7 @@
             // pictureBox13
             // 
             pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
-            pictureBox13.Location = new Point(41, 500);
+            pictureBox13.Location = new Point(41, 445);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(24, 24);
             pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
@@ -226,7 +221,7 @@
             guna2HtmlLabel9.BackColor = Color.Transparent;
             guna2HtmlLabel9.Font = new Font("Inter", 13.5F, FontStyle.Regular, GraphicsUnit.Point);
             guna2HtmlLabel9.ForeColor = Color.FromArgb(123, 123, 125);
-            guna2HtmlLabel9.Location = new Point(82, 449);
+            guna2HtmlLabel9.Location = new Point(82, 394);
             guna2HtmlLabel9.Name = "guna2HtmlLabel9";
             guna2HtmlLabel9.Size = new Size(63, 23);
             guna2HtmlLabel9.TabIndex = 12;
@@ -235,33 +230,12 @@
             // pictureBox12
             // 
             pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
-            pictureBox12.Location = new Point(41, 448);
+            pictureBox12.Location = new Point(41, 393);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(24, 24);
             pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox12.TabIndex = 11;
             pictureBox12.TabStop = false;
-            // 
-            // guna2HtmlLabel8
-            // 
-            guna2HtmlLabel8.BackColor = Color.Transparent;
-            guna2HtmlLabel8.Font = new Font("Inter", 13.5F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2HtmlLabel8.ForeColor = Color.FromArgb(123, 123, 125);
-            guna2HtmlLabel8.Location = new Point(82, 395);
-            guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            guna2HtmlLabel8.Size = new Size(96, 23);
-            guna2HtmlLabel8.TabIndex = 10;
-            guna2HtmlLabel8.Text = "Dashboard";
-            // 
-            // pictureBox6
-            // 
-            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(41, 394);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(24, 24);
-            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox6.TabIndex = 9;
-            pictureBox6.TabStop = false;
             // 
             // guna2HtmlLabel3
             // 
@@ -361,7 +335,7 @@
             // pictureBox7
             // 
             pictureBox7.Image = Properties.Resources.Rectangle_8;
-            pictureBox7.Location = new Point(0, 502);
+            pictureBox7.Location = new Point(0, 447);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(5, 20);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
@@ -835,10 +809,10 @@
             guna2Button1.HoverState.BorderColor = Color.FromArgb(252, 218, 70);
             guna2Button1.HoverState.FillColor = Color.Transparent;
             guna2Button1.HoverState.ForeColor = Color.FromArgb(252, 218, 70);
-            guna2Button1.Location = new Point(1261, 958);
+            guna2Button1.Location = new Point(1194, 930);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            guna2Button1.Size = new Size(111, 36);
+            guna2Button1.Size = new Size(166, 55);
             guna2Button1.TabIndex = 39;
             guna2Button1.Text = "EXIT";
             guna2Button1.Click += guna2Button1_Click;
@@ -874,7 +848,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
@@ -904,8 +877,6 @@
         private PictureBox pictureBox13;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
         private PictureBox pictureBox12;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
-        private PictureBox pictureBox6;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
         private PictureBox pictureBox11;
