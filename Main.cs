@@ -123,8 +123,15 @@ namespace MovieSystemManagement
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            UserProfile up = new UserProfile();
+            UserProfileController up = new UserProfileController();
             up.Show();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Watchlist wl = new Watchlist();
+            wl.Show();
         }
     }
 }

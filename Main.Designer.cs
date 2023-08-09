@@ -272,6 +272,7 @@
             // 
             // pictureBox9
             // 
+            pictureBox9.Cursor = Cursors.Hand;
             pictureBox9.Image = Properties.Resources.material_symbols_list;
             pictureBox9.Location = new Point(41, 283);
             pictureBox9.Name = "pictureBox9";
@@ -279,6 +280,7 @@
             pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox9.TabIndex = 6;
             pictureBox9.TabStop = false;
+            pictureBox9.Click += pictureBox9_Click;
             // 
             // guna2HtmlLabel5
             // 

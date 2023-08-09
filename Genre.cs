@@ -69,5 +69,12 @@ namespace MovieSystemManagement
             Login login = new Login();
             login.Show();
         }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Watchlist wl = new Watchlist();
+            wl.Show();
+        }
     }
 }

@@ -40,6 +40,15 @@
     <Compile Update="UserProfile.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UserProfileController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Watchlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="WatchlistCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Properties\Resources.resx">

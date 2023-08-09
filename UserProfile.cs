@@ -28,5 +28,12 @@ namespace MovieSystemManagement
             Login login = new Login();
             login.Show();
         }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EditMovie editMovie = new EditMovie();
+            editMovie.Show();
+        }
     }
 }

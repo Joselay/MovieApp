@@ -673,6 +673,7 @@
             // 
             // pictureBox10
             // 
+            pictureBox10.Cursor = Cursors.Hand;
             pictureBox10.Image = Properties.Resources.tabler_logout;
             pictureBox10.Location = new Point(41, 789);
             pictureBox10.Name = "pictureBox10";
