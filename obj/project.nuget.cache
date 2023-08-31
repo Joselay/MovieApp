@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "534m2/cZ1ryfpn71aTY5fLtAG+ISknnrBQ1KYnddMq/DlOevMTdfzyDNtk1HGqsB6/eLJ2F6B9/+F+zqr1fSXQ==",
+  "dgSpecHash": "aZWGcKUVU0sFb5M3Q9D2qFmINyaq5VWTJwe6RC9xlyjKNyNJPLoFGRsy0vRZCYHYT1AI85BCn8pZ0W+M3sGlhA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tongm\\Desktop\\MovieSystemManagement\\MovieSystemManagement.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,11 @@
     "C:\\Users\\tongm\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
     "C:\\Users\\tongm\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512",
     "C:\\Users\\tongm\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\tongm\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\tongm\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\tongm\\.nuget\\packages\\videolan.libvlc.windows\\3.0.18\\videolan.libvlc.windows.3.0.18.nupkg.sha512",
+    "C:\\Users\\tongm\\.nuget\\packages\\vlc.dotnet.core\\3.1.0\\vlc.dotnet.core.3.1.0.nupkg.sha512",
+    "C:\\Users\\tongm\\.nuget\\packages\\vlc.dotnet.core.interops\\3.1.0\\vlc.dotnet.core.interops.3.1.0.nupkg.sha512",
+    "C:\\Users\\tongm\\.nuget\\packages\\vlc.dotnet.forms\\3.1.0\\vlc.dotnet.forms.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }

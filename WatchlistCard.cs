@@ -16,5 +16,16 @@ namespace MovieSystemManagement
         {
             InitializeComponent();
         }
+        public WatchlistCard(Movie movie)
+        {
+            InitializeComponent();
+            pictureBox1.Image = ByteToImage(movie.movie_image);
+        }
+        public Image ByteToImage(byte[] blob)
+        {
+            ImageConverter converter = new ImageConverter();
+            return (Image)converter.ConvertFrom(blob);
+        }
+
     }
 }

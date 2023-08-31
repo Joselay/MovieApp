@@ -39,6 +39,9 @@ namespace MovieSystemManagement
                             Movie movie = new Movie(title, description, image);
                             GenreCard mc = new GenreCard(movie);
                             genreFirstLayout.Controls.Add(mc);
+                            GenreCard mc1 = new GenreCard(movie);
+                            genreSecondLayout.Controls.Add(mc1);
+
                         }
                     }
                     else

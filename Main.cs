@@ -62,6 +62,38 @@ namespace MovieSystemManagement
                     reader.Close();
                 }
             }
+
+            string profileQuery = $"SELECT user_image FROM Users WHERE user_id = {Login.user_id};";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(profileQuery, connection))
+                {
+                    connection.Open();
+
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            byte[] image = (byte[])reader["user_image"];
+                            pictureBox5.Image = ByteToImage(image);
+
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("No Data");
+                    }
+
+                    reader.Close();
+                }
+            }
+        }
+        public Image ByteToImage(byte[] blob)
+        {
+            ImageConverter converter = new ImageConverter();
+            return (Image)converter.ConvertFrom(blob);
         }
         private void ApplyRoundedCorners()
         {

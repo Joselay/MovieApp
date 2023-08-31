@@ -66,7 +66,7 @@ namespace MovieSystemManagement
         {
             string connectionString = "Data Source=JOSE;Initial Catalog=MovieApp;User ID=jose;Password=jose";
 
-            string query = "INSERT INTO Users (email, password,role,first_name,last_name) VALUES (@email, @password,@role,@first_name,@last_name)";
+            string query = "INSERT INTO Users (email, password,role,first_name,last_name,username) VALUES (@email, @password,@role,@first_name,@last_name,@username)";
 
             if (passwordText.Text != confirmPasswordText.Text)
             {
@@ -88,6 +88,7 @@ namespace MovieSystemManagement
                         command.Parameters.AddWithValue("@role", "user");
                         command.Parameters.AddWithValue("@first_name", firstNameText.Text);
                         command.Parameters.AddWithValue("@last_name", lastNameText.Text);
+                        command.Parameters.AddWithValue("@username", firstNameText.Text + lastNameText.Text);
 
                         connection.Open();
 
