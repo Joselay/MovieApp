@@ -6,6 +6,13 @@ namespace MovieSystemManagement
 {
     public partial class Login : Form
     {
+        public static int user_id { get; set; }
+        public static string usernameDisplay { get; set; }
+        public static string emailDisplay { get; set; }
+        public static string firstnameDisplay { get; set; }
+        public static string lastnameDisplay { get; set; }
+        public static byte[] imageDisplay { get; set; }
+
         private const int WM_NCLBUTTONDOWN = 0xA1;
         private const int HT_CAPTION = 0x2;
         [DllImport("user32.dll")]
@@ -82,8 +89,17 @@ namespace MovieSystemManagement
                             string role = (string)reader["role"];
                             string first_name = (string)reader["first_name"];
                             string last_name = (string)reader["last_name"];
+                            string username = (string)reader["username"];
+                            string last_created = (DateTime.Now).ToString();
+                            user_id = userId;
+                            usernameDisplay = username;
+                            emailDisplay = email;
+                            firstnameDisplay = first_name;
+                            lastnameDisplay = last_name;
+                            if (role != "admin")
+                                imageDisplay = (byte[])reader["user_image"];
 
-                            Users user = new Users(userId, email, password, role, first_name, last_name);
+                            Users user = new Users(userId, email, password, role, first_name, last_name, username, last_created);
                             AddMovie.user_id = user.user_id;
                             if (email == emailText.Text && password == passwordText.Text)
                             {

@@ -29,19 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListUsers));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             id = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            name = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            email = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            username = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            subscription = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            createdDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
             deleteButton = new PictureBox();
             editButton = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).BeginInit();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)deleteButton).BeginInit();
             ((System.ComponentModel.ISupportInitialize)editButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // id
@@ -55,72 +54,60 @@
             id.TabIndex = 1;
             id.Text = "ID";
             // 
-            // guna2HtmlLabel1
+            // name
             // 
-            guna2HtmlLabel1.BackColor = Color.Transparent;
-            guna2HtmlLabel1.Font = new Font("Inter", 11.249999F, FontStyle.Bold, GraphicsUnit.Point);
-            guna2HtmlLabel1.ForeColor = Color.White;
-            guna2HtmlLabel1.Location = new Point(187, 14);
-            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(46, 21);
-            guna2HtmlLabel1.TabIndex = 2;
-            guna2HtmlLabel1.Text = "Name";
+            name.BackColor = Color.Transparent;
+            name.Font = new Font("Inter", 11.249999F, FontStyle.Bold, GraphicsUnit.Point);
+            name.ForeColor = Color.White;
+            name.Location = new Point(187, 14);
+            name.Name = "name";
+            name.Size = new Size(46, 21);
+            name.TabIndex = 2;
+            name.Text = "Name";
             // 
-            // guna2CirclePictureBox1
+            // email
             // 
-            guna2CirclePictureBox1.Image = (Image)resources.GetObject("guna2CirclePictureBox1.Image");
-            guna2CirclePictureBox1.ImageRotate = 0F;
-            guna2CirclePictureBox1.Location = new Point(113, 6);
-            guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges1;
-            guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            guna2CirclePictureBox1.Size = new Size(64, 64);
-            guna2CirclePictureBox1.TabIndex = 3;
-            guna2CirclePictureBox1.TabStop = false;
+            email.BackColor = Color.Transparent;
+            email.Font = new Font("Inter", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            email.ForeColor = Color.FromArgb(123, 123, 125);
+            email.Location = new Point(187, 41);
+            email.Name = "email";
+            email.Size = new Size(121, 18);
+            email.TabIndex = 4;
+            email.Text = "amjose@gmail.com";
             // 
-            // guna2HtmlLabel2
+            // username
             // 
-            guna2HtmlLabel2.BackColor = Color.Transparent;
-            guna2HtmlLabel2.Font = new Font("Inter", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2HtmlLabel2.ForeColor = Color.FromArgb(123, 123, 125);
-            guna2HtmlLabel2.Location = new Point(187, 41);
-            guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(121, 18);
-            guna2HtmlLabel2.TabIndex = 4;
-            guna2HtmlLabel2.Text = "amjose@gmail.com";
+            username.BackColor = Color.Transparent;
+            username.Font = new Font("Inter", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            username.ForeColor = Color.White;
+            username.Location = new Point(436, 28);
+            username.Name = "username";
+            username.Size = new Size(68, 18);
+            username.TabIndex = 5;
+            username.Text = "Username";
             // 
-            // guna2HtmlLabel3
+            // subscription
             // 
-            guna2HtmlLabel3.BackColor = Color.Transparent;
-            guna2HtmlLabel3.Font = new Font("Inter", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            guna2HtmlLabel3.ForeColor = Color.White;
-            guna2HtmlLabel3.Location = new Point(389, 28);
-            guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(68, 18);
-            guna2HtmlLabel3.TabIndex = 5;
-            guna2HtmlLabel3.Text = "Username";
+            subscription.BackColor = Color.Transparent;
+            subscription.Font = new Font("Inter", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            subscription.ForeColor = Color.White;
+            subscription.Location = new Point(637, 28);
+            subscription.Name = "subscription";
+            subscription.Size = new Size(32, 18);
+            subscription.TabIndex = 6;
+            subscription.Text = "Free";
             // 
-            // guna2HtmlLabel4
+            // createdDate
             // 
-            guna2HtmlLabel4.BackColor = Color.Transparent;
-            guna2HtmlLabel4.Font = new Font("Inter", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            guna2HtmlLabel4.ForeColor = Color.White;
-            guna2HtmlLabel4.Location = new Point(566, 28);
-            guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(32, 18);
-            guna2HtmlLabel4.TabIndex = 6;
-            guna2HtmlLabel4.Text = "Free";
-            // 
-            // guna2HtmlLabel5
-            // 
-            guna2HtmlLabel5.BackColor = Color.Transparent;
-            guna2HtmlLabel5.Font = new Font("Inter", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            guna2HtmlLabel5.ForeColor = Color.White;
-            guna2HtmlLabel5.Location = new Point(724, 28);
-            guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            guna2HtmlLabel5.Size = new Size(82, 18);
-            guna2HtmlLabel5.TabIndex = 7;
-            guna2HtmlLabel5.Text = "16 Oct 2003";
+            createdDate.BackColor = Color.Transparent;
+            createdDate.Font = new Font("Inter", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            createdDate.ForeColor = Color.White;
+            createdDate.Location = new Point(782, 28);
+            createdDate.Name = "createdDate";
+            createdDate.Size = new Size(82, 18);
+            createdDate.TabIndex = 7;
+            createdDate.Text = "16 Oct 2003";
             // 
             // deleteButton
             // 
@@ -132,6 +119,7 @@
             deleteButton.SizeMode = PictureBoxSizeMode.CenterImage;
             deleteButton.TabIndex = 9;
             deleteButton.TabStop = false;
+            deleteButton.Click += deleteButton_Click;
             // 
             // editButton
             // 
@@ -143,26 +131,37 @@
             editButton.SizeMode = PictureBoxSizeMode.CenterImage;
             editButton.TabIndex = 8;
             editButton.TabStop = false;
+            editButton.Click += editButton_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(72, 14);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(100, 50);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 10;
+            pictureBox1.TabStop = false;
             // 
             // ListUsers
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(23, 22, 27);
+            Controls.Add(pictureBox1);
             Controls.Add(deleteButton);
             Controls.Add(editButton);
-            Controls.Add(guna2HtmlLabel5);
-            Controls.Add(guna2HtmlLabel4);
-            Controls.Add(guna2HtmlLabel3);
-            Controls.Add(guna2HtmlLabel2);
-            Controls.Add(guna2CirclePictureBox1);
-            Controls.Add(guna2HtmlLabel1);
+            Controls.Add(createdDate);
+            Controls.Add(subscription);
+            Controls.Add(username);
+            Controls.Add(email);
+            Controls.Add(name);
             Controls.Add(id);
             Name = "ListUsers";
             Size = new Size(1194, 75);
-            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)deleteButton).EndInit();
             ((System.ComponentModel.ISupportInitialize)editButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -170,13 +169,13 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2HtmlLabel id;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
+        private Guna.UI2.WinForms.Guna2HtmlLabel name;
+        private Guna.UI2.WinForms.Guna2HtmlLabel email;
+        private Guna.UI2.WinForms.Guna2HtmlLabel username;
+        private Guna.UI2.WinForms.Guna2HtmlLabel subscription;
+        private Guna.UI2.WinForms.Guna2HtmlLabel createdDate;
         private PictureBox deleteButton;
         private PictureBox editButton;
+        private PictureBox pictureBox1;
     }
 }

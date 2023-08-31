@@ -19,6 +19,10 @@ namespace MovieSystemManagement
         public string title { get; set; }
         public byte[] movie_image { get; set; }
         public string quality { get; set; }
+        public Movie(byte[] movie_image)
+        {
+            this.movie_image = movie_image;
+        }
         public Movie(string title, string description, byte[] movie_image)
         {
             this.title = title;

@@ -287,6 +287,7 @@
             publishButton.Size = new Size(112, 41);
             publishButton.TabIndex = 43;
             publishButton.Text = "Refresh";
+            publishButton.Click += publishButton_Click;
             // 
             // pictureBox16
             // 
@@ -535,7 +536,7 @@
             guna2HtmlLabel17.BackColor = Color.Transparent;
             guna2HtmlLabel17.Font = new Font("Inter", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             guna2HtmlLabel17.ForeColor = Color.White;
-            guna2HtmlLabel17.Location = new Point(845, 213);
+            guna2HtmlLabel17.Location = new Point(914, 213);
             guna2HtmlLabel17.Name = "guna2HtmlLabel17";
             guna2HtmlLabel17.Size = new Size(92, 18);
             guna2HtmlLabel17.TabIndex = 49;
@@ -546,7 +547,7 @@
             guna2HtmlLabel16.BackColor = Color.Transparent;
             guna2HtmlLabel16.Font = new Font("Inter", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             guna2HtmlLabel16.ForeColor = Color.White;
-            guna2HtmlLabel16.Location = new Point(691, 212);
+            guna2HtmlLabel16.Location = new Point(739, 212);
             guna2HtmlLabel16.Name = "guna2HtmlLabel16";
             guna2HtmlLabel16.Size = new Size(76, 18);
             guna2HtmlLabel16.TabIndex = 48;
@@ -586,7 +587,7 @@
             guna2HtmlLabel18.BackColor = Color.Transparent;
             guna2HtmlLabel18.Font = new Font("Inter", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             guna2HtmlLabel18.ForeColor = Color.White;
-            guna2HtmlLabel18.Location = new Point(1020, 212);
+            guna2HtmlLabel18.Location = new Point(1076, 212);
             guna2HtmlLabel18.Name = "guna2HtmlLabel18";
             guna2HtmlLabel18.Size = new Size(100, 18);
             guna2HtmlLabel18.TabIndex = 50;
@@ -643,6 +644,7 @@
             rightArrow.Size = new Size(40, 35);
             rightArrow.TabIndex = 45;
             rightArrow.Text = "→";
+            rightArrow.Click += rightArrow_Click;
             // 
             // leftArrow
             // 
@@ -664,6 +666,7 @@
             leftArrow.Size = new Size(40, 35);
             leftArrow.TabIndex = 44;
             leftArrow.Text = "←";
+            leftArrow.Click += leftArrow_Click;
             // 
             // four
             // 
@@ -685,6 +688,7 @@
             four.Size = new Size(60, 35);
             four.TabIndex = 43;
             four.Text = "4";
+            four.Click += four_Click;
             // 
             // three
             // 
@@ -706,6 +710,7 @@
             three.Size = new Size(60, 35);
             three.TabIndex = 42;
             three.Text = "3";
+            three.Click += three_Click;
             // 
             // two
             // 
@@ -727,6 +732,7 @@
             two.Size = new Size(60, 35);
             two.TabIndex = 41;
             two.Text = "2";
+            two.Click += two_Click;
             // 
             // one
             // 
@@ -748,6 +754,7 @@
             one.Size = new Size(60, 35);
             one.TabIndex = 40;
             one.Text = "1";
+            one.Click += one_Click;
             // 
             // total
             // 
